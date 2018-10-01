@@ -1,0 +1,14 @@
+.parent{
+  display:flex;
+  flex-direction:row;
+   justify-content:center;
+}
+.child{
+  margin:2%;
+  padding: 2%
+  border:1 px solid #ddd;
+  width: 30%
+}
+.child video{
+	width:100%;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>second project</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<div class="parent">
+<div class="child"> <video src="alibaba.mp4" autoplay controls="controls" id="video">  </video>
+<button onclick="vplay();">
+play
+</button>
+<button onclick="vpause();">
+pause
+</button> </div>
+<div class="child">  <audio src="ADHM.mp3" autoplay controls="controls" id="audio"> </audio>
+	<button onclick="aplay();">
+		play
+	</button>
+	<button onclick="apause();">
+		pause
+	</button>
+ </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+var video=document.querySelector("#video");
+function vplay(){
+video.play();
+}
+function vpause(){
+video.pause();
+}
+</script>
+<script type="text/javascript"></script>
+<script type="text/javascript">
+	var audio=document.querySelector("#audio");
+	function aplay(){
+		audio.play();
+	}
+	function apause(){
+		audio.pause();
+	}
+</script>
